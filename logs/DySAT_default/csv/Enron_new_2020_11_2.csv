@@ -1,0 +1,12 @@
+Enron_new,2,default,HAD,val,AUC,1.0
+Enron_new,2,default,SIGMOID,val,AUC,1.0
+Enron_new,2,default,HAD,test,AUC,1.0
+Enron_new,2,default,SIGMOID,test,AUC,0.94
+Enron_new,3,default,HAD,val,AUC,0.8125
+Enron_new,3,default,SIGMOID,val,AUC,0.9375
+Enron_new,3,default,HAD,test,AUC,0.881944444444
+Enron_new,3,default,SIGMOID,test,AUC,0.743055555556
+Enron_new,4,default,HAD,val,AUC,0.555555555556
+Enron_new,4,default,SIGMOID,val,AUC,0.527777777778
+Enron_new,4,default,HAD,test,AUC,0.756232686981
+Enron_new,4,default,SIGMOID,test,AUC,0.706371191136
