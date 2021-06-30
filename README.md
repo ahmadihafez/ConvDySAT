@@ -6,20 +6,10 @@
 
 This repository contains a TensorFlow implementation of ConvDySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention and Convolutional Neural Networks. ConvDySAT is an unsupervised graph embedding model to learn node embeddings in dynamic time-evolving attributed graphs, which may later be used for downstream application tasks such as link prediction, clustering and node classification.
 
- 
-
-![DySAT: Dynamic Self-Attention Network](arch.png)
-
-
-### Incremental Dynamic Graph Embedding
-
-To support streaming graph applications, we also provide an implementation of Incremental 
-Self-Attention (IncSAT) Networks to learn dynamic incremental node embeddings in a stage-wise fashion. 
-See our extended [arxiv version](https://arxiv.org/pdf/1812.09430.pdf) for details on the algorithm.
 
 
 
-If you make use of this code or the DySAT algorithm in your work, please cite our papers:
+If you make use of this code or the ConvDySAT algorithm in your work, please cite our papers:
 
 ```angular2
 @article{hafez2021convdysat,
