@@ -1,6 +1,6 @@
 ## ConvDySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention and Convolutional Neural Networks.
 
-##### Contributors: Ahmad Hafez, Atulya Praphul, Yousef Jaradt, Ezani Godwin wor was based on Aravind Sankar DySAT code.
+##### Contributors: Ahmad Hafez, Atulya Praphul, Yousef Jaradt, Ezani Godwin work was based on Aravind Sankar DySAT code.
 
 
 
