@@ -1,15 +1,11 @@
-## DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks.
+## ConvDySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention and Convolutional Neural Networks.
 
-##### Contributors: [Aravind Sankar](http://asankar3.web.engr.illinois.edu/) (asankar3@illinois.edu).
-
-> Aravind Sankar, Yanhong Wu, Liang Gou, Wei Zhang, and Hao Yang, "DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks", International Conference on Web Search and Data Mining, <b>WSDM 2020</b>, Houston, TX, February 3-7, 2020.
+##### Contributors: Ahmad Hafez, Atulya Praphul, Yousef Jaradt, Ezani Godwin wor was based on Aravind Sankar DySAT code.
 
 
-This repository contains a TensorFlow implementation of DySAT - Dynamic Self Attention (DySAT) networks for 
-dynamic graph representation Learning. DySAT is an unsupervised graph embedding 
-model to learn node embeddings in dynamic time-evolving attributed graphs, which may later be used for downstream application tasks such as link prediction, clustering and node classification.
 
-Note: Though DySAT is designed for attributed dynamic graphs, our benchmarking experiments are carried out on datasets that do not have node attributes.
+This repository contains a TensorFlow implementation of ConvDySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention and Convolutional Neural Networks. ConvDySAT is an unsupervised graph embedding model to learn node embeddings in dynamic time-evolving attributed graphs, which may later be used for downstream application tasks such as link prediction, clustering and node classification.
+
  
 
 ![DySAT: Dynamic Self-Attention Network](arch.png)
@@ -26,21 +22,11 @@ See our extended [arxiv version](https://arxiv.org/pdf/1812.09430.pdf) for detai
 If you make use of this code or the DySAT algorithm in your work, please cite our papers:
 
 ```angular2
-@article{sankar2018dynamic,
-  title={Dynamic Graph Representation Learning via Self-Attention Networks},
-  author={Sankar, Aravind and Wu, Yanhong and Gou, Liang and Zhang, Wei and Yang, Hao},
-  journal={arXiv preprint arXiv:1812.09430},
-  year={2018}
-}
-
-```
-```angular2
-@inproceedings{sankar2020dysat,
-  title={DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks},
-  author={Sankar, Aravind and Wu, Yanhong and Gou, Liang and Zhang, Wei and Yang, Hao},
-  booktitle={Proceedings of the 13th International Conference on Web Search and Data Mining},
-  pages={519--527},
-  year={2020}
+@article{hafez2021convdysat,
+  title={ConvDySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention and Convolutional Neural Networks},
+  author={Hafez, Ahmad and Praphul, Atulya and Jaradt, Yousef and Godwin, Ezani},
+  journal={arXiv preprint arXiv:2106.11430},
+  year={2021}
 }
 ```
 ### Requirements:
